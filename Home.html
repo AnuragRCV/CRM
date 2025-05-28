@@ -75,6 +75,7 @@
             font-size: 14px;
             font-weight: bold;
             text-transform: uppercase;
+            flex-direction: column;
         }
 
         /* Form elements */
@@ -149,7 +150,7 @@
     <div class="login-container">
         <div class="logo">Gobble<br>Solves Business Problems</div>
         <h2>Welcome Back</h2>
-        <form>
+        <div>
             <div class="input-group">
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder="Enter your email">
@@ -162,8 +163,8 @@
                 <input type="checkbox" id="remember">
                 <label for="remember">Remember Me</label>
             </div>
-            <button type="submit">Login</button>
-        </form>
+            <button>Login</button>
+        </div>
     </div>
 </body>
 </html>
